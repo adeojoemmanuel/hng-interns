@@ -1,3 +1,4 @@
+import { InternsDataService } from './interns-data.service';
 import { InternInterface } from './internInterface';
 import { Component } from '@angular/core';
 
@@ -8,15 +9,12 @@ import { Component } from '@angular/core';
 })
 export class InternsComponent {
 
-  interns: InternInterface[] = [
-    {
-    'name': 'Opia Chuks',
-    'skill': 'Front End Developer',
-    'image': 'chuks.jpg',
-    'fav_quote': 'I am the punishment of God to you',
-    'fav_quote_author': 'Ong Bak',
-    'social_media': ['facebook', 'twitter']
+  title = 'Meet The Interns';
+
+  interns: InternInterface[];
+
+  constructor(private _internsService: InternsDataService) {
+    this.interns = _internsService.getInterns();
   }
-  ];
 
 }

@@ -1,6 +1,7 @@
 <main class="container">
   <div class="row text-center" *ngIf='interns && interns.length'>
     <div class="col-md-12 col-sm-12 col-xs-12">
+      <h1 class="text-center" style="margin:2em 0;">{{title}}</h1>
       <div class="col-md-3 col-sm-3 col-xs-12 pointer" style="margin-top: 1.5em;" *ngFor='let intern of interns'>
         <div class="smallborder card-box-shadow default-radius">
           <img src='./assets/img/{{intern.image}}' [alt]='intern.name' [title]='intern.name | uppercase' />

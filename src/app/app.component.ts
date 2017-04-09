@@ -1,10 +1,10 @@
+import { InternsDataService } from './interns/interns-data.service';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  providers: [ InternsDataService ]
 })
-export class AppComponent {
-  title  = 'Welcome to the HNG-Interns 2017 App!';
-}
+export class AppComponent {}
