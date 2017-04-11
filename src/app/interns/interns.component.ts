@@ -9,12 +9,15 @@ import { Component } from '@angular/core';
 })
 export class InternsComponent {
 
-  title = 'Meet The Interns';
+  title = 'Meet The Surviving Interns';
 
   interns: InternInterface[];
 
   constructor(private _internsService: InternsDataService) {
-    this.interns = _internsService.getInterns();
+    this._internsService.getInterns()
+          .subscribe(
+            interns => this.interns = interns
+          );
   }
 
 }

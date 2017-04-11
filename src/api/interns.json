@@ -1,0 +1,199 @@
+[
+    {
+      "name": "Opia Chuks",
+      "skill": "Front End Developer",
+      "languages": "HTML/CSS, JavaScript, Angular, jQuery, PHP",
+      "image": "chuks.jpg",
+      "fav_quote": "The darkest places in hell are reserved for those who maintain their neutrality in times of moral crisis",
+      "fav_quote_author": "Dante Alighieri",
+      "social_media": ["https://www.facebook.com/Troy34", "https://twitter.com/9jaSwag"]
+    },
+    {
+      "name": "Ozoka Lucky Orobo",
+      "skill": "Full Stack Developer",
+      "languages": "HTML, CSS, JavaScript, PHP (Laravel, Nimble), Vue, jQuery, MySQL",
+      "image": "orobolucky.jpg",
+      "fav_quote": "If you sit by the river bank long enough, you'll see the bodies of your enemies float by",
+      "fav_quote_author": "Orobolucky",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Valentine Ike Oleka",
+      "skill": "Back End Developer",
+      "image": "valentine.png",
+      "fav_quote": "Everybody has a gift to share with the world. Something that both lights you on fire internally and serves the world externally, and this thing - this calling - should        be  something you pursue until your final breath",
+      "fav_quote_author": "Valentine Oleka",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Emmanuel Kehinde",
+      "skill": "Android/Full Stack Developer",
+      "image": "kehinde_emmanuel.jpg",
+      "fav_quote": "The only thing you may not know how to do is that which you do not learn.",
+      "fav_quote_author": "Emmanuel Kehinde",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Seyi Onifade",
+      "skill": "Back End Developer",
+      "image": "xyluz.JPG",
+      "fav_quote": "",
+      "fav_quote_author": "",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Abiodun Adetona",
+      "skill": "Front End Developer",
+      "image": "adetona.jpg",
+      "fav_quote": "Being the richest man in the cemetery doesn't matter to me. Going to bed at night saying we've done something wonderful, that's what matters to me.",
+      "fav_quote_author": "Steve Jobs",
+      "social_media": ["facebook", "twitter", "https://github.com/adetona"]
+    },
+    {
+      "name": "Marija Dubrovska-Hassan",
+      "skill": "UI/UX Designer",
+      "image": "digitalmarija.jpg",
+      "fav_quote": "Nothing is impossible, the word itself says, ‘I’m possible’!",
+      "fav_quote_author": "Audrey Hepburn",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Offiong Aniekanabasi",
+      "skill": "Back End Developer",
+      "image": "aniekan.JPG",
+      "fav_quote": "",
+      "fav_quote_author": "",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Okoye Chidi Bartholomew",
+      "skill": "Front End Developer",
+      "image": "okoye.JPG",
+      "fav_quote": "If you want to go fast, go alone.  If you want to go far, go together.",
+      "fav_quote_author": "Okoye Chidi",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Obieri Chiamaka Grace",
+      "skill": "Front End Developer",
+      "image": "chiamaka.jpg",
+      "fav_quote": "Learning never exhaust the mind",
+      "fav_quote_author": "Leonardo DA Vinci",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Namnso Ukpanah",
+      "skill": "UX/UI Designer",
+      "image": "namsoukpanah.jpg",
+      "fav_quote": "The only way to stay ahead of the curve is to live in the future.",
+      "fav_quote_author": "Namso Ukpanah",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Chibuike Emmanuel Osita",
+      "skill": "Full Stack Developer/DevOps",
+      "image": "mozartted.jpg",
+      "fav_quote": "",
+      "fav_quote_author": "",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Onuchukwu Daniel",
+      "skill": "UI/UX Designer",
+      "image": "daniel.jpg",
+      "fav_quote": "The Only thing that overcomes hard luck is hard work",
+      "fav_quote_author": "Oluchukwu Daniel",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Adeyemo Adeola Joseph",
+      "skill": "Front End Developer",
+      "image": "dejoe.jpg",
+      "fav_quote": "There's no shortcut to success but hardwork",
+      "fav_quote_author": "Adeyemo Joseph",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Friday Godswill",
+      "skill": "Android/Full Stack Developer/DevOps",
+      "languages": "HTML/CSS, JavaScript, PHP, Python, Java",
+      "image": "faradayy.JPG",
+      "fav_quote": "Whatsoever is worth doing is worth doing well",
+      "fav_quote_author": "Philip Stanhope, 4th Earl of Chesterfield",
+      "social_media": ["http://facebook.com/godswillf", "http://twitter.com/faradayyg"]
+    },
+    {
+      "name": "Sarah Chima Obianuju",
+      "skill": "Front End Developer",
+      "image": "sarahchima.jpg",
+      "fav_quote": "Reject the tyranny of being picked: pick yourself",
+      "fav_quote_author": "Seth Godin",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Odusanya 'Tomi",
+      "skill": "Front End Developer/UX/UI Designer",
+      "image": "odusanya.JPG",
+      "fav_quote": "We are nothing but pencils in the hands of the creator",
+      "fav_quote_author": "Wale Adenuga",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Kayode Sholanke",
+      "skill": "UX/UI Designer",
+      "image": "jaykay.jpg",
+      "fav_quote": "Destined to reign",
+      "fav_quote_author": "Kayode Sholanke",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Umar Abdullahi",
+      "skill": "Back End Developer",
+      "image": "codebyomar.JPG",
+      "fav_quote": "You should never get nervous about anything. What today seems important tomorrow isn't so any more.",
+      "fav_quote_author": "Tito Vilanova (RIP)",
+      "social_media": [null, "https://twitter.com/codebyomar", "https://github.com/codebyomar"]
+    },
+    {
+      "name": "David Inyang-Etoh",
+      "skill": "Back End Developer",
+      "image": "dinyangetoh.JPG",
+      "fav_quote": "If you are dissatisfied, you must want something and if you want something badly enough, you get it or something mighty close to it",
+      "fav_quote_author": "David Inyang-Etoh",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Mary Mazi",
+      "skill": "Front End Developer",
+      "image": "marimazi.JPG",
+      "fav_quote": "",
+      "fav_quote_author": "",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Promise Udenkwor",
+      "skill": "Front End Developer",
+      "image": "promise.JPG",
+      "fav_quote": "Changing Nigeria's tech space, one interface at a time",
+      "fav_quote_author": "Promise Udenkwor",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Regina Rex",
+      "skill": "Front End Developer",
+      "image": "reginarex.JPG",
+      "fav_quote": "",
+      "fav_quote_author": "",
+      "social_media": ["facebook", "twitter"]
+    },
+    {
+      "name": "Yusuf Yinka",
+      "skill": "UI/UX Designer/Front End Developer",
+      "languages": "HTML, CSS, JavaScript",
+      "image": "yusuf.JPG",
+      "fav_quote": "Make it simple, but significant.",
+      "fav_quote_author": "Don Draper",
+      "social_media": [null, "https://twitter.com/yusfyinka"]
+    }
+    
+]

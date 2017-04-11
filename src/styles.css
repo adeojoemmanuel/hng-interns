@@ -96,7 +96,7 @@ blockquote {
   /* 20px / 16px */
   line-height: 1.25;
   /* 25px / 20px */
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Courgette', cursive;
   --x-height-multiplier: 0.363;
   --baseline-multiplier: 0.157;
   color: rgba(0,0,0,.6);
@@ -112,7 +112,7 @@ blockquote {
 
 @media (min-width: 43.75em) {
   blockquote {
-    font-size: 1.5em;
+    font-size: 3em;
     /* 24px / 16px = */
     line-height: 1.45833333;
     /* 35px / 24px */
@@ -130,6 +130,10 @@ li{font-size: 1.4em;}
 
 .large {
   font-size: 20px; /* 125% of the baseline */
+}
+
+.vlarge {
+  font-size: 40px; /* 125% of the baseline */
 }
 
 .smallborder {
@@ -170,4 +174,12 @@ li{font-size: 1.4em;}
 
 .bkgd-green{
   background: #18bc9c;
+}
+
+.thin{
+  font-weight: 200;
+}
+
+.no-underline{
+  text-decoration: none !important;
 }

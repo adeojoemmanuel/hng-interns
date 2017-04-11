@@ -1,0 +1,20 @@
+<div class="container" *ngIf='intern' style="margin-top: 2.5em;">
+  <div>
+    <div class="col-md-4 col-sm-4 col-xs-12" style="padding: 0px;">
+      <div class="col-md-12 col-sm-12 col-xs-12" style="padding: 0px;">
+        <a class="btn btn-default" (click)='onReturn()' style="padding:5px; margin-bottom: 10px;"><i class="glyphicon glyphicon-chevron-left"></i>Back</a>
+      </div>
+      <img src='./assets/img/{{intern.image}}' alt="">
+    </div>
+    <div class="col-md-8 col-sm-8 col-xs-12">
+      <h1 class="text-center vlarge bold">{{title}}</h1>
+      <h3 class="text-center italic">{{intern.skill}}</h3>
+      <h3 class="text-center italic"><i class="fa fa-code text-danger" aria-hidden="true"></i> {{intern.languages}} <i class="fa fa-code text-danger" aria-hidden="true"></i></h3>
+      <blockquote class="text-center">
+        {{intern.fav_quote}}
+        <footer><cite title="Author">{{intern.fav_quote_author}}</cite></footer>
+      </blockquote>
+      <h3 class="text-center"><a *ngIf='intern.social_media[0]' href='{{intern.social_media[0]}}' class="pointer no-underline" style="color: #3b5998" target="_blank">Facebook<span class="text-black"> | </span></a><a *ngIf='intern.social_media[1]' href='{{intern.social_media[1]}}' class="pointer no-underline" style="color: #1da1f2" target="_blank">Twitter</a><a *ngIf='intern.social_media[2]' href='{{intern.social_media[2]}}' class="pointer no-underline" style="color: #4078c0" target="_blank"><span class="text-black"> | </span>GitHub<span class="text-black"></span></a></h3>
+    </div>
+  </div>
+</div>

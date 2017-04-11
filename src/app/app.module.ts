@@ -1,3 +1,5 @@
+import { InternsDataService } from './interns/interns-data.service';
+import { InternPageGuardService } from './interns/internpageguard.service';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -9,6 +11,7 @@ import { InternsComponent } from './interns/interns.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { InternProfileComponent } from './internprofile/internprofile.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,8 @@ import { HomeComponent } from './home/home.component';
     InternsComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    InternProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -25,12 +29,12 @@ import { HomeComponent } from './home/home.component';
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: 'interns', component: InternsComponent},
-      // {path: 'intern/:id', component: InternProfileComponent},
-       {path: '', redirectTo: 'home', pathMatch: 'full'},
-       {path: '**', redirectTo: 'home', pathMatch: 'full'}
+      {path: 'intern/:name', canActivate: [InternPageGuardService], component: InternProfileComponent},
+      {path: '', redirectTo: 'home', pathMatch: 'full'},
+      {path: '**', redirectTo: 'home', pathMatch: 'full'}
     ])
   ],
-  providers: [],
+  providers: [InternPageGuardService, InternsDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

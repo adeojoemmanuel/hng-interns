@@ -1,16 +1,16 @@
-<main class="container">
+<div class="container">
   <div class="row text-center" *ngIf='interns && interns.length'>
     <div class="col-md-12 col-sm-12 col-xs-12">
       <h1 class="text-center" style="margin:2em 0;">{{title}}</h1>
-      <div class="col-md-3 col-sm-3 col-xs-12 pointer" style="margin-top: 1.5em;" *ngFor='let intern of interns'>
-        <div class="smallborder card-box-shadow default-radius">
+      <div class="col-md-3 col-sm-3 col-xs-12 pointer" style="margin-top: 1.5em; height: 400px;" *ngFor='let intern of interns'>
+        <a [routerLink]="['/intern', intern.name]"><div class="smallborder card-box-shadow default-radius">
           <img src='./assets/img/{{intern.image}}' [alt]='intern.name' [title]='intern.name | uppercase' />
           <div class="bkgd-green" style="padding: 3px;">
-            <h1 class="large text-white bold">{{intern.name}}</h1>
-            <p class="small italic text-white bold" style="margin-bottom: 0px;">{{intern.skill}}</p>
+            <h3 class="text-white bold">{{intern.name}}</h3>
+            <p class="small italic text-white" style="margin-bottom: 0px;">{{intern.skill}}</p>
           </div>
-        </div>
+        </div></a>
       </div>
     </div>
   </div>
-</main>
+</div>
