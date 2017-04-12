@@ -1,12 +1,34 @@
 <div class="relative">
-  <!--<div class="jumbotron" style="height: 75vh"></div>-->
-  <div class="jumbotron text-center flex-container bkgd-very-blue">
-      <div>
-        <img src="../assets/img/3.png" alt="" class="img-responsive center-block">
-        <h1 class="text-white">{{title}}</h1>
-        <!--<a routerLink="/interns" class="btn btn-success" style="margin-top: 5em;">CHECK THEM OUT</a>-->
+  <div id="carousel" class="carousel slide flex-container bkgd-very-blue text-center" data-ride ="carousel" style="height: 75vh; margin: 0">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>-->
+    <!--slides wrappers-->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="../assets/img/1.png" alt="" class="img-responsive center-block carousel-img">
+        <h1 class="text-white" style="font-size: 40px;">{{title}}</h1>
       </div>
+      <div class="item">
+        <img src="../assets/img/2.png" alt="" class="img-responsive center-block carousel-img">
+        <h1 class="text-white" style="font-size: 40px;">{{title}}</h1>
+      </div>
+      <div class="item">
+        <img src="../assets/img/3.png" alt="" class="img-responsive center-block carousel-img">
+        <h1 class="text-white" style="font-size: 40px;">{{title}}</h1>
+      </div>
+    </div>
   </div>
+  <!--<div class="jumbotron text-center flex-container bkgd-very-blue" style="height: 75vh; margin: 0">
+      <div>
+        <img src="../assets/img/3.png" alt="" class="img-responsive center-block carousel-img">
+        <h1 class="text-white" style="font-size: 40px;">{{title}}</h1>
+        <a routerLink="/interns" class="btn btn-success" style="margin-top: 5em;">CHECK THEM OUT</a>
+      </div>
+  </div>-->
   <div class="col-md-12 col-sm-12 col-xs-12 flex-container bkgd-white" style="height: 50vh;">
     <div class="text-center">
       <h2 class="uppercase">Official casual platform for the 2017 HNG Intern-alumni</h2>
@@ -43,7 +65,7 @@
       <img src="../assets/img/z.png" alt="" class="img-responsive feature-img pull-right">
     </div>
     <div class="col-md-7 col-sm-7 col-xs-12 flex-container-left col-md-pull-3 col-sm-pull-3">
-      <h2 class="text-right">A most importantly<br>making important memories<br>and footprints</h2>
+      <h2 class="text-right">And most importantly<br>making important memories<br>and footprints</h2>
     </div>    
   </div>
 </div>
