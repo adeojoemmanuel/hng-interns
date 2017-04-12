@@ -14,8 +14,8 @@
       "languages": "HTML, CSS, JavaScript, PHP (Laravel, Nimble), Vue, jQuery, MySQL",
       "image": "orobolucky.jpg",
       "fav_quote": "If you sit by the river bank long enough, you'll see the bodies of your enemies float by",
-      "fav_quote_author": "Orobolucky",
-      "social_media": ["facebook", "twitter"]
+      "fav_quote_author": "Sun Tzu",
+      "social_media": ["http://facebook.com/orobogenius", "http://twitter.com/orobogenius", "https://github.com/orobogenius"]
     },
     {
       "name": "Valentine Ike Oleka",
@@ -47,7 +47,7 @@
       "image": "adetona.jpg",
       "fav_quote": "Being the richest man in the cemetery doesn't matter to me. Going to bed at night saying we've done something wonderful, that's what matters to me.",
       "fav_quote_author": "Steve Jobs",
-      "social_media": ["facebook", "twitter", "https://github.com/adetona"]
+      "social_media": [null, "https://twitter.com/Adetona77", "https://github.com/adetona"]
     },
     {
       "name": "Marija Dubrovska-Hassan",
@@ -85,7 +85,7 @@
       "name": "Namnso Ukpanah",
       "skill": "UX/UI Designer",
       "image": "namsoukpanah.jpg",
-      "fav_quote": "The only way to stay ahead of the curve is to live in the future.",
+      "fav_quote": "Be socially aware and morally conscious but also turn up.",
       "fav_quote_author": "Namso Ukpanah",
       "social_media": ["facebook", "twitter"]
     },
