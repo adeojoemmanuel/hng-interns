@@ -33,3 +33,9 @@
     width: 20%;
     height: 225px;
 }
+
+@media (max-width: 425px){
+    .carousel-img{
+        width: 30%;
+    }
+}

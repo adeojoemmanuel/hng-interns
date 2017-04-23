@@ -27,10 +27,10 @@ import { InternProfileComponent } from './internprofile/internprofile.component'
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-      {path: 'home', component: HomeComponent},
+      {path: '', component: HomeComponent},
       {path: 'interns', component: InternsComponent},
       {path: 'intern/:name', canActivate: [InternPageGuardService], component: InternProfileComponent},
-      {path: '', redirectTo: 'home', pathMatch: 'full'},
+      // {path: '', redirectTo: 'home', pathMatch: 'full'},
       {path: '**', redirectTo: 'home', pathMatch: 'full'}
     ])
   ],
