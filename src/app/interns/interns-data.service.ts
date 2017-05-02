@@ -12,7 +12,7 @@ import 'rxjs/add/observable/throw';
 @Injectable()
 export class InternsDataService {
 
-  private _internsUrl = '../api/interns.json';
+  private _internsUrl = '/api/interns.json';
 
   constructor(private _http: Http) {}
 
